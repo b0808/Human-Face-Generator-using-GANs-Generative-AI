@@ -164,7 +164,7 @@ discriminator2.summary()
 
 
 ## Training Progress
-Below is the graph showing the training progress of the Generator vs. Discriminator over 50 epochs:
+Below is the graph showing the training progress of the Generator vs. Discriminator for Bigger Architecture over 50 epochs:
 ![App Screenshot](https://github.com/b0808/Human-Face-Generator-using-GANs-Generative-AI/blob/main/download.png)
 
 This graph provides insight into how the generator and discriminator losses evolved during the training process. Ideally, the generator's loss decreases while the discriminator's loss stabilizes, indicating a balanced training process.
