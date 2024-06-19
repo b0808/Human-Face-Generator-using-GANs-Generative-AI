@@ -69,7 +69,8 @@ generator1 = model
 generator1.summary()
 ```
 ### Discriminator
-```model = Sequential(name='discriminator1')
+```
+model = Sequential(name='discriminator1')
 input_shape = (64, 64, 3)
 alpha = 0.2
 
@@ -95,7 +96,8 @@ discriminator1.summary()
 ```
 ## Bigger Architecture
 ### Generator
-``` model = Sequential(name='generator2')
+```
+ model = Sequential(name='generator2')
 
 model.add(layers.Dense(8 * 8 * 512, input_dim=LATENT_DIM))
 model.add(layers.ReLU())
@@ -124,7 +126,8 @@ generator2 = model
 generator2.summary()
 ```
 ### Discriminator
-``` model = Sequential(name='discriminator2')
+```
+model = Sequential(name='discriminator2')
 input_shape = (64, 64, 3)
 alpha = 0.2
 
